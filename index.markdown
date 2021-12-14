@@ -9,7 +9,7 @@ layout: default
 <br/>
 I am 
 - a poor **CSE** student
-- enemy of **MUSE** college
+- the enemy of **MUSE** college
 - a cheif programmer of a **broken start-up company**
 
 
