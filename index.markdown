@@ -2,5 +2,22 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
+
+# Welcome to my github page
+<br/>
+I am 
+- a poor **CSE** student
+- enemy of **MUSE** colleage
+- a cheif programmer of a **broken start-up company**
+
+
+Anyway, I very happy to share my
+- notes
+- tsukkomi(吐槽)
+- life experience(😂)
+
+here!
+
+So stay tunned🤣?
