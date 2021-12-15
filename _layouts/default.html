@@ -1,48 +1,39 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+--- 
+-layout: base
+---
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico"}}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+</head>
 
-{% seo %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico"}}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">&nbsp;&nbsp;{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" width="200"/>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ "/" | absolute_url }}">&nbsp;&nbsp;{{ site.title | default: site.github.repository_name }}</a></h1>
+      
+      {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" width="200"/>
+      {% endif %}
+
+      <p style="font-weight: bold;">
+        <br>
+        <br>
+        <span style="color: #ff0000"> > </span> &emsp; {{ site.school | default: site.github.project_tagline }}<br>
+                <span style="color: #ff0000"> > </span> &emsp; {{ site.major | default: site.github.project_tagline }} <br>
+                <span style="color: #ff0000"> > </span> &emsp; {{ site.grade | default: site.github.project_tagline }} <br>
+        {% if site.leetcode-cn_web %}
+                  <span style="color: #ff0000"> > </span> &emsp; <a href="{{site.leetcode-cn_web}}">leetcode</a> <br>
         {% endif %}
+    </p>
 
-        <p style="font-weight: bold;">
-          <br>
-          <br>
-          <span style="color: #ff0000"> > </span> &emsp; {{ site.school | default: site.github.project_tagline }}<br>
-                  <span style="color: #ff0000"> > </span> &emsp; {{ site.major | default: site.github.project_tagline }} <br>
-                  <span style="color: #ff0000"> > </span> &emsp; {{ site.grade | default: site.github.project_tagline }} <br>
-          {% if site.leetcode-cn_web %}
-                    <span style="color: #ff0000"> > </span> &emsp; <a href="{{site.leetcode-cn_web}}">leetcode</a> <br>
-          {% endif %}
-      </p>
+    </header>
+    <section>
 
-      </header>
-      <section>
+    {{ content }}
 
-      {{ content }}
-
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
-</html>
+    </section>
+    <footer>
+      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </footer>
+  </div>
+</body>
