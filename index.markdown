@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 
@@ -31,7 +28,8 @@ So stay tunned🤣?
 ## Notes
 
 - nowcoder(牛客C++面经)
-  - 😴[chapter 2 section 2]({% link docs/notes/nowcoder/chap2sec2.markdown %})
+  - 😴[chapter 2 section 3]({% link docs/notes/nowcoder/chap2sec3.markdown %})
+  - 😴[chapter 2 section 4]({% link docs/notes/nowcoder/chap2sec4.md %})
 
 <br>
 

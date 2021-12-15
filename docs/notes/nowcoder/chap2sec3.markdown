@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 第二章 第二节 基本语言（二）
-date: 14/12 2021
-permalink: /notes/nowcoder/chap2sec2/
----
-
+date: 16/12 2021
+permalink: /notes/nowcoder/chap2sec3
 ---
 
 ## 智能指针
@@ -172,8 +170,9 @@ C++默认的析构函数不是虚函数是因为虚函数需要额外的**虚函
 ## C++ 储存类型
 
 - overview
-  [进程内存](Assets/imgs/进程结构.png)
-  [储存类型](Assets/imgs/进程储存.png)
+
+  ![进程内存](Assets/imgs/进程储存.png)
+  ![储存类型](Assets/imgs/进程储存.png)
 
 - 程序分区
   - 代码区 (.text)
@@ -384,5 +383,3 @@ int main()
 ## explict
 
 it cannot be used for implicit conversions and copy-initialization.
-
----
