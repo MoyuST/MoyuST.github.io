@@ -1,24 +1,35 @@
---- 
--layout: base
----
-<head>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <!-- [if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif] -->
+    {% include head-custom.html %}
     <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico"}}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-<body>
-    <div class="wrapper">
-    <div align="center">
-      <h1>{{ page.title }}</h1>
-      <small>
-        {{ page.date | date: "%-d %B %Y" }} &nbsp;|&nbsp;
-        <a href="{{ "/" | absolute_url }}">home page</a>
-      </small>
+  <body>
+      <div class="wrapper">
+        <div align="center">
+          <h1>{{ page.title }}</h1>
+          <small>
+            {{ page.date | date: "%-d %B %Y" }} &nbsp;|&nbsp;
+            <a href="{{ "/" | absolute_url }}">home page</a>
+          </small>
+        </div>
+        <br><hr/>
+        {{ content }}
+        <br><br><hr/>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
     </div>
-    <br><hr/>
-    {{ content }}
-    <br><br><hr/>
-    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-  </div>
+  </body>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-</body>
+</html>
