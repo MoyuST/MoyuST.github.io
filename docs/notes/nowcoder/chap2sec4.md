@@ -83,15 +83,6 @@ map和set都是C++的关联容器，其底层实现都是**红黑树（RB-Tree�
 
 迭代器不是指针，是类模板，表现的像指针。他只是模拟了指针的一些功能，通过**重载了指针的一些操作符，->、*、++、--等**。迭代器封装了指针，是一个“可遍历STL（Standard Template Library）容器内全部或部分元素”的对象， 本质是封装了原生指针，是指针概念的一种提升（lift），提供了比指针更高级的行为，相当于一种智能指针，他可以根据不同类型的数据结构来实现不同的++，--等操作。
 
-## epoll原理
-
-- epoll_create(int size)
-  创建epoll对象
-- epoll_ctl(int field, int op, int fd, struct epoll_event *event)
-  对epoll对象进行操作，把需要监控的描述添加进去，这些描述如将会以epoll_event结构体的形式组成**一颗红黑树**
-- int epoll_wait(int epfd, struct epoll_event *events,int maxevents, int timeout)
-  用其进行阻塞，进入大循环，当某个fd上有事件发生时，内核将会把其对应的结构体放入到一个链表中，返回有事件发生的链表。
-
 ## n个整数的无序数组，找到每个元素后面比它大的第一个数，要求时间复杂度为O(N)
 
 ```cpp

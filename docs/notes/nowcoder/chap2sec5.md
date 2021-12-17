@@ -23,4 +23,3 @@ permalink: /notes/nowcoder/chap2sec5/
 ## 请你回答一下C++类内可以定义引用数据成员吗？
 
 可以，必须通过类的构造函数初始化列表初始化。
-
