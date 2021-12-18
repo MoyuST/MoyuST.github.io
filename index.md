@@ -32,6 +32,8 @@ here!
   - 😴[chapter 2 section 5 \| 类和数据抽象]({% link docs/notes/nowcoder/chap2sec5.md %})
   - 😴[chapter 2 section 6 \| 面向对象与泛式编程]({% link docs/notes/nowcoder/chap2sec6.md %})
   - 😴[chapter 2 section 7 \| 编译与底层]({% link docs/notes/nowcoder/chap2sec7.md %})
+  - 😴[chapter 2 section 8 \| C++11]({% link docs/notes/nowcoder/chap2sec8.md %})
+  - 😨[chapter 3 section 8 \| 操作系统(一)]({% link docs/../docs/notes/nowcoder/chap3sec1.md})
 
 <br>
 
