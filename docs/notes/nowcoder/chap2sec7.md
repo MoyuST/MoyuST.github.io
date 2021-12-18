@@ -56,7 +56,7 @@ Malloc在申请内存时，一般会通过brk或者mmap系统调用进行申请�
 
 ## C/C++的虚拟内存管理
 
-<div align=center><img src="Assets/imgs/C_C++_内存分配.png"></div>
+<center>![](Assets/imgs/C_C++_内存分配.png)</center>
 
 3G用户空间和1G内核空间
 
@@ -143,7 +143,7 @@ Linux允许不同进程访问同一个逻辑内存，提供了一组API，头文
 
 ## reactor（事件驱动模型）模型
 
-<div align=center><img src="Assets/imgs/reactor模型.png"></div>
+<center>![](Assets/imgs/reactor模型.png)</center>
 
 - \***Synchronous Event Demultiplexer（同步事件复用器）**：阻塞等待一系列的Handle中的事件到来，如果阻塞等待返回，即表示在返回的Handle中可以不阻塞的执行返回的事件类型。这个模块一般使用操作系统的select来实现。
 - \***Initiation Dispatcher（事件分发器）**：用于管理Event Handler，即EventHandler的容器，用以注册、移除EventHandler等；另外，它还作为Reactor模式的入口调用Synchronous Event Demultiplexer的select方法以阻塞等待事件返回，当阻塞等待返回时，根据事件发生的Handle将其分发给对应的Event Handler处理，即回调EventHandler中的handle_event()方法。
