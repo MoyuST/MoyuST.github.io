@@ -10,7 +10,6 @@ I am
 
 - a poor **CSE** student👨‍💻
 - the enemy of **MUSE** college👨‍✈️
-- a cheif programmer of a **broken start-up company**🤦‍♂️
 
 Anyway, I very happy to share my
 
