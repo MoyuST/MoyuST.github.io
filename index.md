@@ -34,6 +34,9 @@ here!
   - 😴[chapter 2 section 8 \| C++11]({% link docs/notes/nowcoder/chap2sec8.md %})
   - 😨[chapter 3 section 1 \| 操作系统 （一）]({% link docs/notes/nowcoder/chap3sec1.md %})
 
+- some notes of course taking currently
+  - 😊[PHY2010]({% link docs/notes/PHY2010/phy2010.md %})
+
 - some interesting course assignments
   - 🤠[CSC3050 Computer Architecture](https://github.com/MoyuST/CSC3050-Computer-Architecture)
   - 🤠[CSC3150 Operating System](https://github.com/MoyuST/CSC3150-Operating-System)
