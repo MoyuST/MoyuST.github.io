@@ -36,6 +36,7 @@ here!
 
 - some notes of course taking currently
   - 😊[PHY2010]({% link docs/notes/PHY2010/phy2010.md %})
+  - 😊[PHY2001]({% link docs/notes/PHY2001/phy2001.md %})
 
 - some interesting course assignments
   - 🤠[CSC3050 Computer Architecture](https://github.com/MoyuST/CSC3050-Computer-Architecture)
