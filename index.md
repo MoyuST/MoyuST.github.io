@@ -11,7 +11,7 @@ I am
 - a poor **CSE** student👨‍💻
 - the enemy of **MUSE** college👨‍✈️
 
-Anyway, I very happy to share my
+Anyway, I am very happy to share my
 
 - notes
 - complaints(吐槽)
@@ -19,7 +19,6 @@ Anyway, I very happy to share my
 
 here!
 
-<br>
 <br>
 <br>
 
@@ -35,8 +34,8 @@ here!
   - 😨[chapter 3 section 1 \| 操作系统 （一）]({% link docs/notes/nowcoder/chap3sec1.md %})
 
 - some notes of course taking currently
-  - 😊[PHY2010]({% link docs/notes/PHY2010/phy2010.md %})
   - 😊[PHY2001]({% link docs/notes/PHY2001/phy2001.md %})
+  - 😊[PHY2010]({% link docs/notes/PHY2010/phy2010.md %})
 
 - some interesting course assignments
   - 🤠[CSC3050 Computer Architecture](https://github.com/MoyuST/CSC3050-Computer-Architecture)
