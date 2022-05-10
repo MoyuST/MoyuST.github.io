@@ -42,6 +42,9 @@ here!
   - 🤠[CSC3150 Operating System](https://github.com/MoyuST/CSC3150-Operating-System)
   - 🤠[CSC4005 Distributed System](https://github.com/MoyuST/CSC4005-Distributed-System)
 
+- some small projects
+  - 🐝[Simple State Machine](https://github.com/MoyuST/simpleStateMachine)
+
 <br>
 
 ## complaints
