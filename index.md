@@ -1,5 +1,6 @@
 ---
 layout: default
+# bundle exec jekyll serve
 ---
 
 # Welcome to my github page
