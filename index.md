@@ -34,7 +34,8 @@ here!
   - 🐢[chapter 3 section 1 \| 操作系统 （一）]({% link docs/notes/nowcoder/chap3sec1.md %})
 
 - notes for some online courses
-  - 🐒[SeedLab Network Security](https://github.com/MoyuST/seedlab_network_security_notes)
+  - 🐒[SeedLab Network Security](https://github.com/MoyuST/Seedlab-Network-Security)
+  - 🐒[CS144 Introduction to Computer Networks](https://github.com/MoyuST/CS144-Introduction-to-Computer-Networks)
 
 ## small projects
 
@@ -44,4 +45,4 @@ here!
   - 🦄[CSC4005 Distributed System](https://github.com/MoyuST/CSC4005-Distributed-System)
 
 - other projects
-  - 🐝[Simple State Machine](https://github.com/MoyuST/simpleStateMachine)
+  - 🐝[Simple State Machine](https://github.com/MoyuST/Simple-State-Machine)
