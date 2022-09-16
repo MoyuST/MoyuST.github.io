@@ -41,8 +41,12 @@ here!
 ## small projects
 
 - some interesting course assignments
+  - 🦄[ERG3010 Data and Knowledge Management](https://github.com/UndertakerW/USBridges-Data-Analysis)
+  - 🦄[CSC3002 Introduction to Programing Paradigm](https://github.com/UndertakerW/Thermite-IDE)
   - 🦄[CSC3050 Computer Architecture](https://github.com/MoyuST/CSC3050-Computer-Architecture)
   - 🦄[CSC3150 Operating System](https://github.com/MoyuST/CSC3150-Operating-System)
+  - 🦄[CSC3180 Database System](https://github.com/UndertakerW/FIFADB)
+  - 🦄[CSC4001 Software Engineering](https://github.com/UndertakerW/MinersCoffee)
   - 🦄[CSC4005 Distributed System](https://github.com/MoyuST/CSC4005-Distributed-System)
 
 - other projects
