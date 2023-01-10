@@ -1,11 +1,11 @@
 title: XueShengST
 logo: /assets/img/logo.png
-school: CUHK(SZ)
-major: CSE
-grade: Year 4
+school: NUS
+major: CS, Infocomm Security
+grade: Master, Year 1
 nickname: XueShengST
 author: XueShengST
-leetcode-cn_web: https://leetcode-cn.com/u/xueshengst/
+# leetcode-cn_web: https://leetcode-cn.com/u/xueshengst/
 show_downloads: true
 # google_analytics:
 theme: jekyll-theme-minimal

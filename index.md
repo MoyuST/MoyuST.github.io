@@ -37,6 +37,7 @@ here!
   - 🐒[SeedLab Network Security](https://github.com/MoyuST/Seedlab-Network-Security)
   - 🐒[CS143 Compilers](https://github.com/MoyuST/CS143-Compilers)
   - 🐒[CS144 Introduction to Computer Networks](https://github.com/MoyuST/CS144-Introduction-to-Computer-Networks)
+  - 🐒[MIT6.1810 Operating System Engineering](https://github.com/MoyuST/MIT6.1810-Operating-System-Engineering)
 
 ## small projects
 
